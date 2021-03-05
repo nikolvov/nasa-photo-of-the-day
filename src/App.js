@@ -10,7 +10,7 @@ import Info from './components/Info'
 function App() {
   const [data, setData] = useState({})
   useEffect(() => {
-    axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY').then(
+    axios.get('https://api.nasa.gov/planetary/apod?api_key=w4FUnhmFDVqg2q0G5St9dIaKYU9OfJ3cSMSpMRRa').then(
       res => {
         console.log(res)
         setData(res.data)
